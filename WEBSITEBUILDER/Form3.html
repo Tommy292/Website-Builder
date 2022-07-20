@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;0,700;1,100;1,300;1,400&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+
+</head>
+<body>
+
+	<section class="header">
+
+		<nav>
+		   <a  href="homepage.html"><img src="logo.png"></a>
+		   <div class="nav-links" id="navLinks">
+		   <i class="fa fa-times" onclick="hideMenu()" ></i>
+
+		   	<ul>
+		   		<li><a href="homePage.html">HOME</a></li>
+		   		<li><a href="build.html">BUILD</a></li>
+		   		<li><a href="">SETTINGS</a></li>
+		   		<li><a href="login.html">LOGOUT</a></li>
+
+
+
+		   	</ul>
+
+		   </div>
+		   <i class="fa fa-bars" onclick="showMenu()"></i>
+
+		</nav>
+
+		<div class="text-box">
+			<h1>Build your website now!</h1>
+			<p> <br></p>
+		</div>
+
+	</section>
+
+<h3 >Carefully enter details of your website</h3>
+
+<form class="Form1" method="POST" id="Build" action="build.php">
+
+
+
+
+    <input type="text" name="name" placeholder="name of website">
+
+    <input type="text" name="footer" placeholder="footer text">
+
+    <h3>For intro heading</h3>
+
+    <input type="text" name="heading" placeholder="First Heading">
+
+    <textarea name="paragraph" placeholder="write text here"> </textarea>
+
+
+    <textarea name="paragraph" placeholder="Bold  text here"> </textarea>
+
+
+
+    <h3>For About Us </h3>
+
+
+    <input type="text" name="heading" placeholder="Heading 1(Name)">
+
+
+    <input type="number" min="0" maxlength="14" name="heading" placeholder="Contact number">
+
+
+    <input type="email" name="heading" placeholder="Email">
+
+    <textarea name="paragraph" placeholder="write text here"> </textarea>
+
+      <textarea name="paragraph" placeholder="Address"> </textarea>
+        <textarea name="paragraph" placeholder="Expertise"> </textarea>
+
+
+        <h3>For Service 1</h3>
+
+
+
+        <input type="text" name="heading" placeholder="First Heading">
+
+        <textarea name="paragraph" placeholder="write text here"> </textarea>
+
+        <input type="text" name="heading" placeholder="Second Heading">
+
+        <textarea name="paragraph" placeholder="write text here"> </textarea>
+
+        <input type="text" name="heading" placeholder="Third Heading">
+
+        <textarea name="paragraph" placeholder="write text here"> </textarea>
+
+        <input type="text" name="heading" placeholder="Fourth Heading">
+
+        <textarea name="paragraph" placeholder="write text here"> </textarea>
+
+        <h3>For Service 2</h3>
+
+
+
+        <input type="text" name="heading" placeholder="First Heading">
+
+        <textarea name="paragraph" placeholder="write text here"> </textarea>
+
+        <input type="text" name="heading" placeholder="Second Heading">
+
+        <textarea name="paragraph" placeholder="write text here"> </textarea>
+
+        <input type="text" name="heading" placeholder="Third Heading">
+
+        <textarea name="paragraph" placeholder="write text here"> </textarea>
+
+        <input type="text" name="heading" placeholder="Fourth Heading">
+
+        <textarea name="paragraph" placeholder="write text here"> </textarea>
+
+        <h3>For Service 3</h3>
+
+
+
+        <input type="text" name="heading" placeholder="First Heading">
+
+        <textarea name="paragraph" placeholder="write text here"> </textarea>
+
+        <input type="text" name="heading" placeholder="Second Heading">
+
+        <textarea name="paragraph" placeholder="write text here"> </textarea>
+
+        <input type="text" name="heading" placeholder="Third Heading">
+
+        <textarea name="paragraph" placeholder="write text here"> </textarea>
+
+
+        <h3>For Service 4</h3>
+
+
+
+        <input type="text" name="heading" placeholder="First Heading">
+
+        <textarea name="paragraph" placeholder="write text here"> </textarea>
+
+
+
+
+
+
+
+
+
+<button type="submit" name="submit">Done</button>
+
+</form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<script>
+		var navLinks = document.getElementById("navLinks");
+
+		function showMenu(){
+			navLinks.style.right = "0";
+
+		}
+
+		function hideMenu(){
+			navLinks.style.right = "-200px";
+
+		}
+
+
+
+		</script>
+
+
+
+
+
+
+ </body>
+
+
+
+
+
+</html>

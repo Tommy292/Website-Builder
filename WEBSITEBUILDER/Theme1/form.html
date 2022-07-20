@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+<HTML>
+
+<HEAD>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8">
+
+
+	<TITLE>Rental Service</TITLE>
+	<link rel= "stylesheet" href="style.css">
+
+</HEAD>
+
+<BODY style="background-color:Azure;" onload="getSubject()">
+
+<header>
+		
+		<div class="navbar">
+		<a href="#" class="company"><I><B>Zain Rental Service</I></B></a>
+		  <a href="intro.html">Home</a>
+  
+		  <a href="aboutMe.html">About Me</a>
+		  <a href="form.html">Enquiry-Form</a>
+		  <a href="disclaimer.html">Disclaimer</a>
+		  <a href="enhancements.html">Enhancements</a>
+	  	<div class="dropdown">
+    		<button class="dropbtn">Our-Products 
+      			<i class="fa fa-caret-down"></i>
+    		</button>
+    		<div class="dropdown-content">
+     		<a href="service1.html">Car's</a>
+		<a href="service2.html">Hotel</a>
+		<a href="service3.html">Delivery Truck</a>
+		<a href="service4.html">Car Inspection</a>
+		    </div>
+		  </div> 
+		</div>
+
+			
+
+</header>
+
+<BR>
+<BR>
+<BR>
+<BR>
+
+<form name="myForm">
+
+	<BR>
+	<h1>ENQUIRY-FORM:</h1>
+	<h5>Subject:</h5> <input type="text" name="Subject" id="subject" maxlength="25" placeholder="Enter subject" required>
+	<h5>First Name:</h5> <input type="text" name="FirstName" maxlength="25" placeholder="Enter first name" required>
+	<h5>Last Name:</h5> <input type="text" name="LastName" maxlength="25" placeholder="Enter Last name" required>
+	<h5>Email:<h5> <input type="text" name="Email" maxlength="30" placeholder="Enter Email" required>
+	
+	<BR><BR>
+	
+	<h4>Enter Address:</h4>
+		<PRe>
+			Street Address:<input type="text" name="Street" maxlength="20" placeholder="Enter street address" required><BR>	
+			City:          <input type="text" name="city" maxlength="40" placeholder="Enter city/town" required>
+		
+			Select State:  <select name="state" required>
+	<option value="state">Perlis</option>
+	<option value="state">Kedah</option>
+	<option value="state">Terengganu</option>
+	<option value="state">Pahang</option>
+	<option value="state">Perak</option>
+	<option value="state">Kelantan</option>
+	<option value="state">Penang</option>
+	<option value="state">Selangor</option>
+	<option value="state">Johor</option>
+	<option value="state">Malacca</option>
+	<option value="state">Kuala Lumpur</option>
+	<option value="state">Putrajaya</option>
+	<option value="state">Labuan</option>
+	
+	</select><BR>
+			PostCode:      <input type="tel" name="postal" maxlength="5" minlength="5" placeholder="Enter post code" required>
+	</PRE>
+	
+
+
+		
+	<h4>Phone Number:</h4> <input type="text" name="phone" maxlength="10"  placeholder="Enter phone number" required>
+	<h4>Choose Services:</h4>
+	<select name="service" id="service" onchange="Func()" required>
+	</select>
+<BR>
+
+<BR>
+
+<textarea name="comment" placeholder="Write your comments/suggestions." required></textarea>
+
+<BR><BR>
+
+<button type="submit" onclick="validation()" name="submit" >Submit Enquiry</button>
+</form>
+
+
+
+
+</BODY>
+
+</HTML>
+<script src="./script.js"></script>

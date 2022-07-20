@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;0,700;1,100;1,300;1,400&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+
+</head>
+<body>
+
+	<section class="header">
+
+		<nav>
+		   <a  href="homepage.html"><img src="logo.png"></a>
+		   <div class="nav-links" id="navLinks">
+		   <i class="fa fa-times" onclick="hideMenu()" ></i>
+
+		   	<ul>
+		   		<li><a href="homePage.html">HOME</a></li>
+		   		<li><a href="build.html">BUILD</a></li>
+		   		<li><a href="">SETTINGS</a></li>
+		   		<li><a href="login.html">LOGOUT</a></li>
+
+
+
+		   	</ul>
+
+		   </div>
+		   <i class="fa fa-bars" onclick="showMenu()"></i>
+
+		</nav>
+
+		<div class="text-box">
+			<h1>Build your website now!</h1>
+			<p> <br></p>
+		</div>
+
+	</section>
+
+<h3 >Carefully enter details of your website</h3>
+
+<form class="Form1" method="POST" id="Build" action="build.php">
+
+    <input type="number" name="numPages" placeholder="no of pages">
+
+
+    <input type="text" name="name" placeholder="name of website">
+
+    <input type="text" name="footer" placeholder="footer text">
+
+    <input type="text" name="heading" placeholder="Heading">
+
+    <textarea name="paragraph" placeholder="write text here"> </textarea>
+
+<button type="submit" name="submit">Done</button>
+
+</form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<script>
+		var navLinks = document.getElementById("navLinks");
+
+		function showMenu(){
+			navLinks.style.right = "0";
+
+		}
+
+		function hideMenu(){
+			navLinks.style.right = "-200px";
+
+		}
+
+
+
+		</script>
+
+
+
+
+
+
+ </body>
+
+
+
+
+
+</html>

@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+"
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family:  Arial;
+
+}
+
+.navbar {
+
+	position:absolute;
+	top: 0;
+	left: 0;
+	width: 88.3%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 15px 80px;
+	z-index: 10;
+	background: #4B0082;
+}
+.navbar .company
+{
+	position: relative;
+	font-size: 1.5em;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-weight: 600;
+}
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.banner
+{
+  background: #F5FFFA;
+  padding: 120px 100px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.banner .content
+{
+	max-width: 800px;
+}
+
+.banner .content h2
+{
+	font-size: 4em;
+
+}
+
+.banner .content h3
+{
+	font-size: 2em;
+
+}
+
+.banner .content p
+{
+	font-size: 1em;
+
+}
+.banner .image
+{
+
+	max-width: 500px;
+	max-height: 500px;
+	margin-left: 30px;
+
+}
+
+.banner2
+{
+  background: #F5FFFA;
+  padding: 120px 90px 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.banner2 .content
+{
+	max-width: 800px;
+}
+
+.banner2 .content h1
+{
+	font-size: 3em;
+
+}
+
+.banner .content h2
+{
+
+	font-size: 2em;
+
+
+}
+
+.banner2 .content h3
+{
+	color: red;
+	font-size: 2em;
+
+
+}
+
+.banner2 .content p
+{
+	font-size: 1em;
+
+}
+.banner2 .image
+{
+
+	max-width: 400px;
+	max-height: 400px;
+	margin-left: 20px;
+
+}
+.imgButton .buttt{
+    text-align:center;
+     border-radius: 20px;
+     border-color: black;
+    color: black;
+    background-color:white;
+      cursor: pointer;
+     font-size: 26px;
+     margin-left:800px;
+     margin-right: 0px;
+}
+
+.buttt:hover
+{
+ background-color: #4B0082;
+  color: white;
+   cursor: pointer;
+ border-radius: 20px;
+ font-size: 26px;
+
+}
+
+
+
+.footer-container
+{
+
+
+	position:fixed;
+  left: 0;
+  bottom: 0;
+
+  width: 100%;
+  background-color: #4B0082;
+  color: white;
+  text-align: center;
+
+}
+
+.footer-container p a
+{
+	color: #fff;
+	text-decoration: none;
+	letter-spacing: 0px;
+}
+
+.footer-container p a:hover
+{
+		color: #B22222;
+
+}
+
+@media (max-width: 991px)
+{
+	header
+	{
+		padding:10px 20px;
+		flex-direction: column;
+	}
+	.banner
+	{
+		padding: 150px 20px 50px;
+		flex-direction: column-reverse;
+	}
+	.banner .image
+	{
+		margin-left: 0;
+	}
+
+
+}
+
+form
+{
+	width: 300px;
+}
+
+input
+{
+	width: 100%;
+}
+textarea
+{
+		width: 500px;
+		height:300px;
+
+		max-height:300px;
+
+		resize: vertical;
+}
+
+
+input, textarea {
+	outline: none;
+	border: 2px solid #000000;
+}
+
+input:focus, textarea:focus {
+
+		box-shadow: 0 0 4px rgba(100, 0, 400, 0.5);
+	border: 2px solid rgba(100, 0, 400, 0.5);
+}
+
+button
+{
+	width: 200px;
+	color: #708090;'
+	background-color: #FFFFFF;
+	margin-left: 400px;
+}
+
+
+button: hover
+{
+
+	color: #4682B4;'
+
+}
+
+
+
+.disc p
+{
+	font-size:1.3em;
+}

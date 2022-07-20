@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;0,700;1,100;1,300;1,400&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+
+</head>
+<body>
+
+	<section class="header">
+
+		<nav>
+		   <a  href="homepage.html"><img src="logo.png"></a>
+		   <div class="nav-links" id="navLinks">
+		   <i class="fa fa-times" onclick="hideMenu()" ></i>
+
+		   	<ul>
+		   		<li><a href="homePage.html">HOME</a></li>
+		   		<li><a href="build.html">BUILD</a></li>
+		   		<li><a href="">SETTINGS</a></li>
+		   		<li><a href="login.html">LOGOUT</a></li>
+
+
+
+		   	</ul>
+
+		   </div>
+		   <i class="fa fa-bars" onclick="showMenu()"></i>
+
+		</nav>
+
+		<div class="text-box">
+			<h1>Website Builder</h1>
+			<p> <br></p>
+		</div>
+
+	</section>
+
+
+	<section class="join">
+
+		<h1>Join us for a successful future</h1>
+		<p>  </p>
+
+		<div class="row">
+			<div class="join-col">
+				<h3>Beginner</h3>
+				<p>Lorem ipsum dolor sit amet, consectetursem posuere scelerisqu Maecenas vitae lectus quis ex varius volutpat et in quam. Donec lobortis, mauris eget varius tincidunt, magna lacus  ipsum, vel  orci nulla in urna. .</p>
+
+
+			</div>
+			<div class="join-col">
+				<h3>Intermediate</h3>
+				<p>Sed non porta libero. Praesent auctor mollis ultrices. Nunc sit amet sagittis nunc. Fusce ut diam vel justo maximus semper. Aenean pulvinar nisi nisl, at vestibulum purus bibendum vel. </p>
+			</div>
+			<div class="join-col">
+				<h3>Expert</h3>
+				<p>Sed non porta libero. Praesent auctor mollis ultrices. Nunc sit amet sagittis nunc. Fusce ut diam vel justo maximus semper.  .</p>
+
+
+			</div>
+		</div>
+
+	</section>
+
+
+	<section class="tutor">
+		<h1>Our Prodcuts</h1>
+		<p> We provide honorable and quality products to ensure your complete growth</p>
+		<div class="row">
+			<div class="tutor-col">
+			 	<a href="Theme1/intro.html"> <button  >Theme 1</button></a>
+        <BR>
+        <a href="Form3.html"> <button  >Build this theme</button></a>
+			</div>
+			<div class="tutor-col">
+				 	<a href="Theme2/theme2P1.html"> <button  >Theme 2</button></a>
+          <BR>
+          <a href="Form2.html"> <button  >Build this theme</button></a>
+        </div>
+
+    </div>
+
+
+	</section>
+
+
+
+	<section class="review">
+		<h1>What our user's say?</h1>
+		<p>For your better experience and knowledge learn from our former user reviews.</p>
+
+		<div class="row">
+			<div class="review-col">
+				<img src="user.png">
+				<div>
+					<p>Sed non porta libero. Praesent auctor mollis ultrices. Nunc sit amet sagittis nunc. </p>
+					<h3>Chris Tuck</h3>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star-o"></i>
+
+				</div>
+			</div>
+			<div class="review-col">
+				<img src="user.png">
+				<div>
+          <p>Sed non porta libero. Praesent auctor mollis ultrices. Nunc sit amet sagittis nunc. </p>
+					<h3>Adam	</h3>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star-half-alt"></i>
+
+				</div>
+			</div>
+		</div>
+
+	</section>
+
+	<section class="footer">
+		<HR>
+		<h4>About Us</h4>
+		<p>Sed non porta libero. Praesent auctor mollis ultrices. Nunc sit amet sagittis nunc. </p>
+
+		<div class="icons">
+			<i class="fab fa-facebook-square"></i>
+			<i class="fab fa-twitter-square"></i>
+			<i class="fab fa-instagram-square"></i>
+			<i class="fab fa-linkedin-square"></i>
+
+		</div>
+
+	</section>
+
+
+
+
+	<script>
+		var navLinks = document.getElementById("navLinks");
+
+		function showMenu(){
+			navLinks.style.right = "0";
+
+		}
+
+		function hideMenu(){
+			navLinks.style.right = "-200px";
+
+		}
+
+
+
+		</script>
+
+
+
+
+
+
+ </body>
+
+
+
+
+
+</html>
